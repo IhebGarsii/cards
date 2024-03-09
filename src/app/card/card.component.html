@@ -1,0 +1,14 @@
+<div class="card" *ngFor="let one of cards">
+  <div
+    [ngClass]="{
+      card: true,
+      hight: one.power > 100,
+      medium: one.power < 100 && one.power > 50,
+      low: one.power < 50
+    }"
+  >
+    <img [src]="one.imageURL" alt="{{ one.name }}" width="200" height="160" />
+    <h3>{{ one.name }}</h3>
+    <h3>{{ one.power }}</h3>
+  </div>
+</div>

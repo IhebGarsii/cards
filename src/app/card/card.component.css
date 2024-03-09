@@ -1,0 +1,18 @@
+.card {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+
+.hight {
+  background-color: red;
+}
+
+.medium {
+  background-color: blueviolet;
+}
+
+.low {
+  background-color: greenyellow;
+}
