@@ -6,27 +6,11 @@
   text-align: center;
   padding: 50px;
 }
-input {
-  width: 25%;
-  height: 30px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-}
-button {
-  width: 20%;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-}
-.input-container {
-  display: flex;
-  justify-content: space-around;
-}
 
 .cards {
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .card {

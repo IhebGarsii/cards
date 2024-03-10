@@ -7,20 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'luffy';
-  card = {
-    imageURL: '',
-    power: 0,
-    name: '',
-  };
-  cards: any[] = [];
-
-  add() {
-    this.cards.push(this.card);
-    this.card = {
-      imageURL: '',
-      power: 0,
-      name: '',
-    };
-    console.log(this.cards);
-  }
 }

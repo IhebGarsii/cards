@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ReduxLikeService } from '../redux-like.service';
 
 @Component({
   selector: 'app-card',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
-  @Input() cards: any[] = [];
+  constructor(public share: ReduxLikeService) {}
 }

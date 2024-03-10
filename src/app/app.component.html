@@ -1,12 +1,6 @@
+<app-navbar></app-navbar>
 <div class="app-container">
   <h2>Hero App</h2>
-  <div class="input-container">
-    <input [(ngModel)]="card.name" type="text" placeholder="name" />
-    <input [(ngModel)]="card.power" type="text" placeholder="power" />
-    <input [(ngModel)]="card.imageURL" type="text" placeholder="imag URL" />
-    <button (click)="add()">Create</button>
-  </div>
-  <div class="cards">
-    <app-card class="card" [cards]="cards"></app-card>
-  </div>
+
+  <router-outlet ></router-outlet>
 </div>
